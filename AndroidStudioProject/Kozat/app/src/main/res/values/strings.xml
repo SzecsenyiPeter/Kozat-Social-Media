@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Kozat</string>
+    <string name="user_search_hint">Search users</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_conversation">ConversationActivity</string>
+</resources>

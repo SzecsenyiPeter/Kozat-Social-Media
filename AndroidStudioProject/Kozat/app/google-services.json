@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "337455236298",
+    "firebase_url": "https://kozat-ec0da.firebaseio.com",
+    "project_id": "kozat-ec0da",
+    "storage_bucket": "kozat-ec0da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337455236298:android:a12969efa5262baf",
+        "android_client_info": {
+          "package_name": "com.mugi.peti.kozat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337455236298-lcrtfi79nj9kuqcbji3achjaqnr9estd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mugi.peti.kozat",
+            "certificate_hash": "b7897cd6411b2e2644a60ba0e35d4a9adddfdd34"
+          }
+        },
+        {
+          "client_id": "337455236298-uc01o7eh5pqtjq8hq8602lmc3ave8dic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmc3gzDCdpvDBu1MGbg5QUbp0wbovEHmo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337455236298-uc01o7eh5pqtjq8hq8602lmc3ave8dic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

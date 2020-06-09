@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboardMenuLogout"
+        android:title="Logout" />
+    <item
+        android:id="@+id/dashboardMenuEditProfile"
+        android:title="Edit Profile" />
+    <item
+        android:id="@+id/dashboardMenuSearchUsers"
+        android:title="Search Users"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"
+        />
+    <item
+        android:id="@+id/dashboardMenuOwnProfile"
+        android:title="My profile" />
+</menu>

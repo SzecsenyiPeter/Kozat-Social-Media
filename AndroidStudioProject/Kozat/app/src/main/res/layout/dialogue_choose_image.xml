@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ChooseImageTitleTextView"
+        android:layout_width="117dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="24dp"
+        android:text="Choose"
+        android:textAppearance="@android:style/TextAppearance.Material.DialogWindowTitle"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ChooseImageCameraImageView"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="20dp"
+        android:tint="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ChooseImageTitleTextView"
+        app:srcCompat="@drawable/ic_from_camera_black_24dp" />
+
+    <ImageView
+        android:id="@+id/ChooseImageGalleryImageView"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="12dp"
+        android:tint="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ChooseImageCameraImageView"
+        app:srcCompat="@drawable/ic_from_gallery_black_24dp" />
+
+    <TextView
+        android:id="@+id/ChooseImageCameraTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Camera"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="@+id/ChooseImageCameraImageView"
+        app:layout_constraintStart_toEndOf="@+id/ChooseImageCameraImageView"
+        app:layout_constraintTop_toTopOf="@+id/ChooseImageCameraImageView" />
+
+    <TextView
+        android:id="@+id/ChooseImageGalleryTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Gallery"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="@+id/ChooseImageGalleryImageView"
+        app:layout_constraintStart_toEndOf="@+id/ChooseImageGalleryImageView"
+        app:layout_constraintTop_toTopOf="@+id/ChooseImageGalleryImageView" />
+</android.support.constraint.ConstraintLayout>
