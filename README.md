@@ -7,6 +7,7 @@ Developed by Szécsényi Péter, written in Java, using Android Studio and Googl
 - Upvote posts
 - See friends posts in a feed organized by recency
 <img src="https://i.imgur.com/p4YgkV2.jpg" width="400" height="800" />
+
 ### Instant messaging
 - Send messages to friends
 - Friend messaging list displays last message, and if message is unread
